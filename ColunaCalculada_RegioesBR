@@ -1,0 +1,22 @@
+# TCCLumaGomes
+
+= Table.AddColumn(Fonte, "Personalizar", 
+each if [state_name] = "Rio de Janeiro" then "Sudeste" 
+else if [state_name] = "São Paulo" then "Sudeste" 
+else if [state_name] = "Minas Gerais" then "Sudeste" 
+else if [state_name] = "Espírito Santo" then "Sudeste" 
+else if [state_name] = "Rio Grande do Sul" then "Sul" 
+else if [state_name] = "Santa Catarina" then "Sul" 
+else if [state_name] = "Paraná" then "Sul" 
+else if [state_name] = "Distrito Federal" then "Centro-Oeste" 
+else if [state_name] = "Mato Grosso" then "Centro-Oeste" 
+else if [state_name] = "Mato Grosso do Sul" then "Centro-Oeste" 
+else if [state_name] = "Goiás" then "Centro-Oeste" 
+else if [state_name] = "Amazonas" then "Norte" 
+else if [state_name] = "Pará" then "Norte" 
+else if [state_name] = "Acre" then "Norte" 
+else if [state_name] = "Roraima" then "Norte" 
+else if [state_name] = "Rondônima" then "Norte" 
+else if [state_name] = "Amapá" then "Norte" 
+else if [state_name] = "Tocantins" then "Norte" 
+else "Nordeste")
