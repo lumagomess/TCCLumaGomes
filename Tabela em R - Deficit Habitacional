@@ -1,0 +1,20 @@
+# Criar uma tabela
+# Criar as variáveis
+Componentes<-c("Habitação Precária","Coabitação Familiar","Ônus Excessivo com Aluguel ","Adensamento Excessivo")
+# Segunda variável
+A<-c("997264","1905085","2553436","390255")
+# Terceira variável
+B<-c("863030","1911598","2926543","366890")
+# Quarta variável
+C<-c("942631","1902490","3177772","33850")
+# Quinta variável
+D<-c("928892","1793776","2840299","350860")
+# Sexta variável
+E<-c("972501","1812340","2942388","360740")
+# Sétima variável
+F<-c("884624","1819093","2023803","324888")
+#Oitava variável
+G<-c("872615","1854194","2999362","358295")
+# criar tabela (Data frame)
+tcc<-data.frame(Componentes = Componentes, A = A, B = B, C = C, D = D, E = E, F = F, G =G)
+tcc
