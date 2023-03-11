@@ -1,0 +1,14 @@
+# Criar uma tabela
+# Criar as variáveis
+Região<-c("Norte","Nordeste","Sudeste","Sul","Centro-Oeste","Brasil")
+# Segunda variável
+População<-c("18195","57042","88583","30009","16248","210077")
+# Terceira variável
+Participação<-c("0,09","0,27","0,42","0,14","0,08","1")
+# Quarta variável
+Rendimento<-c("1868","1569","2761","2799","2731","2435")
+# Quinta variável
+Rendimento2<-c("944","802","1450","1505","1414","1244")
+# criar tabela (Data frame)
+tcc<-data.frame(Região = Região, População = População, Participação = Participação, Rendimento = Rendimento, Rendimento2 = Rendimento2)
+tcc
